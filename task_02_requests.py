@@ -1,3 +1,10 @@
+"""
+Holberton School - Python API Exercise
+
+This script uses the requests library to fetch posts from the JSONPlaceholder API.
+It prints the titles of all posts and also saves them into a CSV file.
+"""
+
 import requests
 import csv
 
@@ -39,4 +46,3 @@ def fetch_and_save_posts():
         print("Posts saved to posts.csv successfully!")
     else:
         print("Request failed!")
-
